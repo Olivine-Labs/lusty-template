@@ -5,9 +5,9 @@ source = {
   dir = "lusty-template"
 }
 description = {
-  summary = "Persistence interface for lusty.",
+  summary = "Template interface for lusty.",
   detailed = [[
-    Persistence interface for lusty.
+    Template interface for lusty.
   ]],
   homepage = "http://olivinelabs.com/lusty/",
   license = "MIT <http://opensource.org/licenses/MIT>"
