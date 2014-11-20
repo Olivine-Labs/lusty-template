@@ -1,8 +1,8 @@
 package = "lusty-template"
-version = "0.2-0"
+version = "0.3-0"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-template/archive/v0.2.tar.gz",
-  dir = "lusty-template-0.2"
+  url = "https://github.com/Olivine-Labs/lusty-template/archive/v0.3.tar.gz",
+  dir = "lusty-template-0.3"
 }
 description = {
   summary = "Template interface for lusty.",
@@ -20,6 +20,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["lusty-template.context.template"]  = "src/context/template.lua",
+    ["lusty-template.context.template"]  = "lusty-template/context/template.lua",
   }
 }
